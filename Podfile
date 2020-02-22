@@ -6,6 +6,7 @@ target 'redsInstagram' do
   use_frameworks!
 
   # Pods for redsInstagram
+    pod 'Parse'
     pod 'AlamofireImage'
 
   target 'redsInstagramTests' do
