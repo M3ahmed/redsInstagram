@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24B0A61A2407312400A1A171 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0A6192407312400A1A171 /* LoginViewController.swift */; };
+		24B0A61C2407313900A1A171 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0A61B2407313900A1A171 /* FeedViewController.swift */; };
 		24C332FB23FF6A8300158284 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C332FA23FF6A8300158284 /* AppDelegate.swift */; };
 		24C332FD23FF6A8300158284 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C332FC23FF6A8300158284 /* SceneDelegate.swift */; };
 		24C3330223FF6A8300158284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C3330023FF6A8300158284 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24B0A6192407312400A1A171 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		24B0A61B2407313900A1A171 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		24C332F723FF6A8300158284 /* redsInstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redsInstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C332FA23FF6A8300158284 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24C332FC23FF6A8300158284 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 				24C332FA23FF6A8300158284 /* AppDelegate.swift */,
 				24C332FC23FF6A8300158284 /* SceneDelegate.swift */,
 				24C3330023FF6A8300158284 /* Main.storyboard */,
+				24B0A6192407312400A1A171 /* LoginViewController.swift */,
+				24B0A61B2407313900A1A171 /* FeedViewController.swift */,
 				24C3330323FF6A8400158284 /* Assets.xcassets */,
 				24C3330523FF6A8400158284 /* LaunchScreen.storyboard */,
 				24C3330823FF6A8400158284 /* Info.plist */,
@@ -404,7 +410,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B0A61A2407312400A1A171 /* LoginViewController.swift in Sources */,
 				24C332FB23FF6A8300158284 /* AppDelegate.swift in Sources */,
+				24B0A61C2407313900A1A171 /* FeedViewController.swift in Sources */,
 				24C332FD23FF6A8300158284 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
