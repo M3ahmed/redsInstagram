@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		24C332FB23FF6A8300158284 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C332FA23FF6A8300158284 /* AppDelegate.swift */; };
 		24C332FD23FF6A8300158284 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C332FC23FF6A8300158284 /* SceneDelegate.swift */; };
-		24C332FF23FF6A8300158284 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C332FE23FF6A8300158284 /* ViewController.swift */; };
 		24C3330223FF6A8300158284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C3330023FF6A8300158284 /* Main.storyboard */; };
 		24C3330423FF6A8400158284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C3330323FF6A8400158284 /* Assets.xcassets */; };
 		24C3330723FF6A8400158284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C3330523FF6A8400158284 /* LaunchScreen.storyboard */; };
@@ -41,7 +40,6 @@
 		24C332F723FF6A8300158284 /* redsInstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redsInstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C332FA23FF6A8300158284 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24C332FC23FF6A8300158284 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		24C332FE23FF6A8300158284 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		24C3330123FF6A8300158284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24C3330323FF6A8400158284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24C3330623FF6A8400158284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -118,7 +116,6 @@
 			children = (
 				24C332FA23FF6A8300158284 /* AppDelegate.swift */,
 				24C332FC23FF6A8300158284 /* SceneDelegate.swift */,
-				24C332FE23FF6A8300158284 /* ViewController.swift */,
 				24C3330023FF6A8300158284 /* Main.storyboard */,
 				24C3330323FF6A8400158284 /* Assets.xcassets */,
 				24C3330523FF6A8400158284 /* LaunchScreen.storyboard */,
@@ -155,7 +152,6 @@
 				664223713789F786F733F7DA /* Pods-redsInstagramTests.debug.xcconfig */,
 				9262C2923265FB03A0A857B5 /* Pods-redsInstagramTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -408,7 +404,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24C332FF23FF6A8300158284 /* ViewController.swift in Sources */,
 				24C332FB23FF6A8300158284 /* AppDelegate.swift in Sources */,
 				24C332FD23FF6A8300158284 /* SceneDelegate.swift in Sources */,
 			);
