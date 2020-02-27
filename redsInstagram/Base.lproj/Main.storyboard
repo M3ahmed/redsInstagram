@@ -33,11 +33,17 @@
                                 <rect key="frame" x="105" y="529" width="47" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign In"/>
+                                <connections>
+                                    <action selector="onSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dmz-fS-DD4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uWf-7H-2av">
                                 <rect key="frame" x="255" y="529" width="54" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign Up"/>
+                                <connections>
+                                    <action selector="onSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5ZY-ml-xN2"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q0S-cI-LH6">
                                 <rect key="frame" x="89" y="386" width="236" height="34"/>
@@ -59,6 +65,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="passwordField" destination="avu-ct-mSy" id="enC-NW-B5j"/>
+                        <outlet property="usernameField" destination="q0S-cI-LH6" id="M6a-ag-FLg"/>
+                        <segue destination="Y5I-0s-aaA" kind="presentation" identifier="loginSegue" id="b3f-HH-Evd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -83,7 +94,7 @@
         <!--Navigation Controller-->
         <scene sceneID="eHA-rN-9WN">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Y5I-0s-aaA" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="Y5I-0s-aaA" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="g9e-WP-T9p">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
