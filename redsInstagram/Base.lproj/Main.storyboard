@@ -88,7 +88,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="534" id="mg0-ix-Vke" customClass="PostCell" customModule="redsInstagram" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="534" id="mg0-ix-Vke" customClass="PostCell" customModule="redsInstagram" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="534"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mg0-ix-Vke" id="bf1-jE-7be">
@@ -104,13 +104,13 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gymshark" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKt-kb-9HS">
-                                                    <rect key="frame" x="8" y="494" width="78" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="16" y="494" width="84" height="21"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Wow, I love photos" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fiZ-RH-hGU">
-                                                    <rect key="frame" x="94" y="494" width="312" height="21"/>
+                                                    <rect key="frame" x="108" y="493" width="298" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -120,7 +120,7 @@
                                                 <constraint firstItem="dH8-vH-05r" firstAttribute="top" secondItem="bf1-jE-7be" secondAttribute="top" constant="8" id="2f2-92-5vU"/>
                                                 <constraint firstItem="fiZ-RH-hGU" firstAttribute="top" secondItem="dH8-vH-05r" secondAttribute="bottom" constant="8" id="3Gs-Id-COE"/>
                                                 <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="fiZ-RH-hGU" secondAttribute="bottom" constant="8" id="94q-br-1tT"/>
-                                                <constraint firstItem="lKt-kb-9HS" firstAttribute="leading" secondItem="bf1-jE-7be" secondAttribute="leading" constant="8" id="9zP-Ff-exM"/>
+                                                <constraint firstItem="lKt-kb-9HS" firstAttribute="leading" secondItem="bf1-jE-7be" secondAttribute="leading" constant="16" id="9zP-Ff-exM"/>
                                                 <constraint firstItem="dH8-vH-05r" firstAttribute="leading" secondItem="bf1-jE-7be" secondAttribute="leading" constant="8" id="IeL-UR-iOZ"/>
                                                 <constraint firstItem="fiZ-RH-hGU" firstAttribute="leading" secondItem="lKt-kb-9HS" secondAttribute="trailing" constant="8" id="NhQ-jp-QXm"/>
                                                 <constraint firstItem="lKt-kb-9HS" firstAttribute="top" secondItem="dH8-vH-05r" secondAttribute="bottom" constant="8" id="hb7-bI-bSQ"/>
@@ -131,6 +131,36 @@
                                             <outlet property="photoView" destination="dH8-vH-05r" id="cAV-lo-zu7"/>
                                             <outlet property="usernameLabel" destination="lKt-kb-9HS" id="tPW-4i-eSd"/>
                                         </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="WOF-as-hat">
+                                        <rect key="frame" x="0.0" y="562" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WOF-as-hat" id="nLY-Mo-0Qj">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gymshark" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQl-zi-1OM">
+                                                    <rect key="frame" x="16" y="8" width="84" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a fake comment" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8I-Gd-hiQ">
+                                                    <rect key="frame" x="108" y="8" width="176" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="sQl-zi-1OM" secondAttribute="bottom" constant="8" id="78B-ev-w5j"/>
+                                                <constraint firstItem="sQl-zi-1OM" firstAttribute="leading" secondItem="nLY-Mo-0Qj" secondAttribute="leading" constant="16" id="8tq-zg-wBJ"/>
+                                                <constraint firstItem="o8I-Gd-hiQ" firstAttribute="leading" secondItem="sQl-zi-1OM" secondAttribute="trailing" constant="8" id="Jgl-XU-7OX"/>
+                                                <constraint firstItem="sQl-zi-1OM" firstAttribute="top" secondItem="nLY-Mo-0Qj" secondAttribute="top" constant="8" id="N5K-mH-jgU"/>
+                                                <constraint firstItem="o8I-Gd-hiQ" firstAttribute="top" secondItem="nLY-Mo-0Qj" secondAttribute="top" constant="8" id="Nzx-Ai-gZf"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="o8I-Gd-hiQ" secondAttribute="bottom" constant="8" id="uSw-mF-GC0"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
