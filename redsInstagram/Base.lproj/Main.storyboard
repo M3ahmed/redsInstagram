@@ -10,7 +10,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="redsInstagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="redsInstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -139,6 +139,11 @@
                         <viewLayoutGuide key="safeArea" id="iOC-7v-A2F"/>
                     </view>
                     <navigationItem key="navigationItem" id="GH3-hB-wZI">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="Qee-kq-lUx">
+                            <connections>
+                                <action selector="onLogoutButton:" destination="3Jb-k5-VS3" id="2te-fD-wnT"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="insta_camera_btn" id="kb2-5m-UF4">
                             <connections>
                                 <segue destination="eCc-Ag-r6k" kind="presentation" id="tH4-u2-6od"/>
@@ -204,7 +209,7 @@
         <!--Navigation Controller-->
         <scene sceneID="eHA-rN-9WN">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="Y5I-0s-aaA" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FeedNavigationController" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="Y5I-0s-aaA" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="g9e-WP-T9p">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
