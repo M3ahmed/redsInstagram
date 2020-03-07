@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2499CF4524144E67003B331F /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2499CF4424144E67003B331F /* CommentCell.swift */; };
 		24B0A61A2407312400A1A171 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0A6192407312400A1A171 /* LoginViewController.swift */; };
 		24B0A61C2407313900A1A171 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B0A61B2407313900A1A171 /* FeedViewController.swift */; };
 		24C332FB23FF6A8300158284 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C332FA23FF6A8300158284 /* AppDelegate.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2499CF4424144E67003B331F /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		24B0A6192407312400A1A171 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		24B0A61B2407313900A1A171 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		24C332F723FF6A8300158284 /* redsInstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redsInstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +127,7 @@
 				24C332FA23FF6A8300158284 /* AppDelegate.swift */,
 				24C332FC23FF6A8300158284 /* SceneDelegate.swift */,
 				24C3330023FF6A8300158284 /* Main.storyboard */,
+				2499CF4424144E67003B331F /* CommentCell.swift */,
 				24B0A6192407312400A1A171 /* LoginViewController.swift */,
 				24E1B1FC24075FF200989F64 /* CameraViewController.swift */,
 				24E1B1FE24076D3B00989F64 /* PostCell.swift */,
@@ -422,6 +425,7 @@
 				24B0A61C2407313900A1A171 /* FeedViewController.swift in Sources */,
 				24C332FD23FF6A8300158284 /* SceneDelegate.swift in Sources */,
 				24E1B1FF24076D3B00989F64 /* PostCell.swift in Sources */,
+				2499CF4524144E67003B331F /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

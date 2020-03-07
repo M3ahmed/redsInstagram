@@ -132,7 +132,7 @@
                                             <outlet property="usernameLabel" destination="lKt-kb-9HS" id="tPW-4i-eSd"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="WOF-as-hat">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CommentCell" id="WOF-as-hat" customClass="CommentCell" customModule="redsInstagram" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="562" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WOF-as-hat" id="nLY-Mo-0Qj">
@@ -159,6 +159,31 @@
                                                 <constraint firstItem="sQl-zi-1OM" firstAttribute="top" secondItem="nLY-Mo-0Qj" secondAttribute="top" constant="8" id="N5K-mH-jgU"/>
                                                 <constraint firstItem="o8I-Gd-hiQ" firstAttribute="top" secondItem="nLY-Mo-0Qj" secondAttribute="top" constant="8" id="Nzx-Ai-gZf"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="o8I-Gd-hiQ" secondAttribute="bottom" constant="8" id="uSw-mF-GC0"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="commentLabel" destination="o8I-Gd-hiQ" id="kfn-tS-7KZ"/>
+                                            <outlet property="nameLabel" destination="sQl-zi-1OM" id="k68-Wr-rT9"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddCommentCell" id="yrW-qv-cez">
+                                        <rect key="frame" x="0.0" y="606" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yrW-qv-cez" id="Jf3-xU-zov">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a comment..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tma-xq-lbH">
+                                                    <rect key="frame" x="16" y="8" width="135" height="28"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Tma-xq-lbH" firstAttribute="leading" secondItem="Jf3-xU-zov" secondAttribute="leading" constant="16" id="T1f-7E-LCK"/>
+                                                <constraint firstItem="Tma-xq-lbH" firstAttribute="top" secondItem="Jf3-xU-zov" secondAttribute="top" constant="8" id="tL5-2a-0Nz"/>
+                                                <constraint firstAttribute="bottom" secondItem="Tma-xq-lbH" secondAttribute="bottom" constant="8" id="z5Y-KN-HBc"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
